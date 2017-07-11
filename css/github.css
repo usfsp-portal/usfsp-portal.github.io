@@ -1,1 +1,12 @@
+.portal-authors-link,
+.portal-authors-link > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
 
+.portal-css-authors {
+ font-family: Arial;
+ color:green;
+}
