@@ -1,2 +1,52 @@
-<!DOCTYPE>
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title property="name">USFSP | Portal Documentation</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="author" href="http://www.cfrech.com">
+ <link rel="stylesheet" href="/css/main.min.css">
+</head>
+  <body id="main-page">
+    <main><!-- necessary for screen readers -->
+		<nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span>Menu</span>
+              </button>
+
+              <a class="navbar-brand" href="https://www.usfsp.edu"><img class="usfsp-logo" src="<?=$p?>/images/USFSP-v-black.png" alt="USFSP Logo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <!-- Sharon added role="navigation" for screenreaders -->
+                <li class="<?=$activeDashboard?>"><a href="<?=$p?>/question/">Ask a Question <span class="sr-only">(current)</span></a></li>
+                
+                <li class="<?=$activeChat?>"><a href="<?=$p?>/chat/">Chat</a></li>
+                <li class="<?=$activeCourses?>"><a href="<?=$p?>/courses/">Courses</a></li>
+                <!-- <li class="<?=$activeInfo?> dropdown"><a href="<?=$p?>/info/">Information</a> -->
+                <!-- SA 4 Jan 17 needs consulting with Casey -->
+                <li class='dropdown'>
+                  <a href='' class='dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' aria-labeledby='dropdown-list'>Information<span class='caret'></span></a>
+                  <ul class='dropdown-menu'>
+                    <li><a href='../infoEvents/'>Events</a></li>
+                    <li><a href='../infoForms/'>Forms</a></li>
+                    <li><a href='../infoPhones/'>Phone and FAX Numbers</a></li>
+                    <li><a href='../infoMyLocation/'>Phone GeoLocation</a></li>                   
+                    <li><a href='../infoQStatus/'>Recent Questions</a></li>
+                    <li><a href='../infoHours/'>Regular Office Hours </a></li>
+                    <li><a href='../infoSpecialHours/'>Special Office Hours</a></li>
+                   <li><a href='../infoReports/'>USFSP Reports</a></li>           
+                  </ul>
+                </li>
+
+            
+              </ul>
+
+
+            </div><!-- /.navbar-collapse -->
