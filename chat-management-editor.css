@@ -1,0 +1,36 @@
+#selectRoomStatus .optionRoomStatus {
+  padding: 5px;
+  border-radius: 3px;
+}
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+.tab-content.current {
+  display: inherit;
+}
+#record-editor {
+  margin-top: 20px;
+}
+.add-attendee {
+  display: block;
+  margin-bottom: 10px;
+}
+#list-of-attendees {
+  margin-top: 15px;
+}
+#chatManagementEditor #chat,
+#chatManagementEditor #new-chat-perm,
+#chatManagementEditor #attendees {
+  display: none;
+}
+#listOfUnits {
+  margin-left: -40px;
+}
+#listOfUnits li {
+  font-size: .9em;
+}
+#listOfUnits li label {
+  font-weight: normal;
+}

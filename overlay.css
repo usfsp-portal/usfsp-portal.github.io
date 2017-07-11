@@ -1,0 +1,81 @@
+.shadowedArea {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#overlay1 {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  #overlay1 {
+    display: block;
+  }
+}
+#overlay1 {
+  padding: 0;
+  position: absolute;
+  left: -265px;
+  width: 300px;
+  z-index: 100;
+}
+#overlay1 .overlay-main,
+#overlay1 .overlay-tab {
+  float: left;
+}
+#overlay1 .overlay-main {
+  background-color: #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 265px;
+}
+#overlay1 .overlay-tab {
+  background-color: #888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+  padding: 10px 5px;
+  text-align: center;
+  width: 35px;
+}
+#overlay1 .overlay-tab span {
+  line-height: 25px;
+  padding-left: 4px;
+}
+#overlay1 .overlay-tab:hover {
+  background-color: #999 !important;
+}
+#overlay2 {
+  padding: 0;
+  position: relative;
+  width: 300px;
+  z-index: 99;
+}
+#overlay2 .overlay-main,
+#overlay2 .overlay-tab {
+  float: left;
+}
+#overlay2 .overlay-main {
+  background-color: #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 265px;
+}
+#overlay2 .overlay-tab {
+  background-color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+  padding: 10px 5px;
+  text-align: center;
+  width: 35px;
+  margin-top: 45px;
+}
+#overlay2 .overlay-tab span {
+  line-height: 25px;
+  padding-left: 4px;
+}
+#overlay2 .overlay-tab:hover {
+  background-color: #999 !important;
+}

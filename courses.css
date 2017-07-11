@@ -1,0 +1,88 @@
+#gogetcourses {
+  margin: 20px 0;
+  padding: 10px;
+}
+#getcourses,
+#search-results {
+  margin: 0 15px;
+}
+li {
+  list-style-type: none;
+}
+#college-step li {
+  display: none;
+}
+#department-step li {
+  display: none;
+}
+#tab-filter-dept,
+#tab-filter-campus,
+#browse-college {
+  display: none;
+}
+#tab-filter-course {
+  /*background-color: PaleGreen*/
+}
+#tab-filter-dept {
+  /*background-color: MintCream*/
+}
+#tab-filter-campus {
+  /*background-color: Bisque*/
+}
+#filter-semester,
+#filter-online,
+#filter-campus {
+  display: none;
+}
+#filter-dept li > label,
+#filter-course li > label,
+#browse-college li > label {
+  font-weight: normal;
+  margin-left: 0.3em;
+}
+.glyphicon {
+  padding-right: 10px;
+}
+.search-label {
+  box-sizing: border-box;
+  color: #333333;
+  display: block;
+  font-family: 'Open Sans Condensed';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26.4px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.search-box {
+  padding: 10px;
+}
+#custom-search-step-2 {
+  margin-top: 40px;
+}
+.btn {
+  margin: 5px 0;
+}
+legend {
+  font-size: 120%;
+}
+#department-list {
+  display: none;
+}
+.btn-success-usfsp.active,
+.btn-success-usfsp:active {
+  background-color: #006746;
+  border-color: #3E8F3E;
+  color: #ffffff;
+}
+#search-results li {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#search-results li div {
+  font-weight: normal;
+}
+#custom-course-chooser-panel {
+  display: block !important;
+}

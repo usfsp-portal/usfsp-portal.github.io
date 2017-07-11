@@ -1,0 +1,17 @@
+body#chatManagement h3 {
+  font-family: 'Open Sans';
+  margin-top: 20px;
+}
+body#chatManagement table tr {
+  font-family: 'Open Sans';
+  font-size: .9em;
+}
+body#chatManagement table tr th {
+  border-bottom: none;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+body#chatManagement table tfoot {
+  text-transform: uppercase;
+}

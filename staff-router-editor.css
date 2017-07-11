@@ -1,0 +1,84 @@
+#selectRoomStatus .optionRoomStatus {
+  padding: 5px;
+  border-radius: 3px;
+}
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+.tab-content.current {
+  display: inherit;
+}
+#record-editor {
+  margin-top: 20px;
+}
+.add-attendee {
+  display: block;
+  margin-bottom: 10px;
+}
+#list-of-attendees {
+  margin-top: 15px;
+}
+#chatManagementEditor #chat,
+#chatManagementEditor #new-chat-perm,
+#chatManagementEditor #attendees {
+  display: none;
+}
+/*Sharon Added Casey code here 26 August */
+.user-entry {
+  font-size: .9em;
+}
+.user-entry h4 {
+  background-color: #eee;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-size: 1em;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.user-entry h4 span {
+  font-size: .9em;
+  padding-right: 0px;
+}
+.user-entry ul {
+  display: none;
+  background-color: #edf6fe;
+  margin-left: 0;
+  padding: 20px;
+}
+.user-entry .removeUnit {
+  cursor: pointer;
+  font-size: .9em;
+  padding: 3px;
+}
+.user-entry .glyphicon {
+  padding-right: 0;
+}
+.user-entry li {
+  margin-left: 0px;
+  margin-bottom: 8px;
+}
+.user-entry .unit-adder {
+  margin-top: 20px;
+}
+.user-entry .unit-adder span {
+  font-weight: bold;
+}
+.user-entry .unassigned-units,
+.user-entry .unassigned-users {
+  display: block;
+  margin-left: -20px;
+}
+.user-entry .unassigned-units li,
+.user-entry .unassigned-users li {
+  margin-bottom: 0;
+}
+.user-entry .unassigned-units label,
+.user-entry .unassigned-users label {
+  font-weight: normal;
+}
+.view-description {
+  margin-top: 20px;
+  margin-left: 20px;
+}

@@ -1,0 +1,243 @@
+@import 'bootstrap.less';
+@import 'bootstrap-theme.less';
+@import 'fonts.less';
+@import 'overlay.less';
+@import 'chat.less';
+@import 'nav.less';
+@import 'courses.less';
+@import 'login.less';
+@import 'sound.less';
+@import 'profile.less';
+@import 'footer.less';
+@import 'info.less';
+@import 'unauthorized.less';
+/*@import 'site-management.less';*/
+@import 'chat-management-editor.less';
+@import 'unit-router-editor.less';
+@import 'staff-router-editor.less';
+@import 'table.less';
+@import 'speech-recognition.less';
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans Condensed';
+    font-weight: bold
+}
+p {
+    font-family: 'Open Sans'
+}
+
+body {
+	background-color: #444
+}
+
+main {
+	background-color: #fff;
+	padding-bottom: 40px
+}
+
+code {
+	display: block;
+	margin: 50px;
+	padding: 50px;
+	h1, h3 {
+		font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	}
+	h3 {
+		font-size: 1.2em;
+		font-style: italic;
+	}
+	ol li {
+		list-style-type: decimal;
+	}
+	p {
+		font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+		margin-top: 20px;
+	}
+	ul li {
+		list-style-type: circle;
+	}	
+} 
+
+
+body#home {
+	div.jumbotron {
+		background-color: #fff;
+		border-radius: 0;
+		padding: 0;
+		text-align: left;
+		button.start-a-chat,
+		button.browse-for-answers,
+		button.home-chat {
+			padding: 15px;
+		}	
+		h1, p {
+			text-align: left;
+		}
+		h3 {
+			font-size:1.4em;
+			margin-top:30px;
+		}		
+	}
+	div.hp-intro {
+		background-color: #eee;
+		padding: 20px
+	}	
+	#homeNewQuestion {
+		display: block;
+		padding: 15px;
+		text-align: left;
+	}
+	#response-with-result,
+	#response-no-result {
+		display: none
+	}
+}
+body#chat,
+body#home {
+	h1 {
+		font-size: 2em;
+		margin: 0;
+	}
+	h2 {
+		font-family: 'Open Sans';
+		font-size:1em;
+		font-weight: normal;
+		margin: 10px 0; 
+	}
+	.hp-chat {
+		.form-control {
+			height: auto;
+		}
+		background-color: #eee;
+		font-family: 'Open Sans';
+		button {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			margin-top: 0px;
+		}
+		input {
+			border-radius: 0;
+		}
+	}
+	.jumbotron {
+		border-radius: 0;
+		margin: 20px 0;
+		p {
+			margin: 15px 0;
+			font-size: 1em;
+			font-weight: normal;
+		}
+	}
+}
+
+
+#load-testing {
+	background-color: #fff;
+	padding: 40px;
+	h1 {
+		margin-bottom: 20px !important
+	}
+}
+
+ul.navbar-right a.linkBtn,
+a.linkBtn {
+	background-color: #fff;
+	border: 1px #888 solid;
+	border-radius: 2px;	
+	color: #006484;
+	display: inline-block;
+	font-size: .8em;
+	margin: 10px 0;
+    margin-left: 5px;	
+	padding: 5px 10px
+}
+a.linkBtn:hover {
+	color: #3e8f3e;
+	text-decoration: none
+}
+
+ul.navbar-right a.getHelp {
+    background-color: #006484;
+    color: #fff;
+}
+/* Source of above http://getbootstrap.com/components/#navbar-links section titled "Body padding required" */
+/* Below is a temporary set of css for testing */
+#testTile1 {
+
+	height:200px;
+	background-color: #DBE442;
+}
+
+#testTile2 {
+
+/*
+	height:200px;
+	background-color: #29AFCE;
+*/
+
+}
+#testTile3 {
+
+	/*
+	height:200px;
+	background-color: #9CCB3B;
+
+	*/
+}
+/* End temporary set of css for testing */
+/*Start of new test for background image on indexImageTest1.php require once header-test.php instead of header.php */
+/*Source of image is a photo still from USFSP student Shannon Gazdacka's video, "Survived By" ...we need her permission to use */
+/*Source code https://css-tricks.com/perfect-full-page-background-image/ */
+#specialTest {
+
+  color:#fff;
+  background: url(../images/LargeSurvivedByWEB1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  #imageTest1, #imageTest2, #imageTest3 {
+  	color: black;
+  }
+
+  	.jumbotron {
+  		background-color:#DBE442;
+		border-radius: 0;
+		margin: 20px 0;
+		p {
+			margin: 15px 0;
+			font-size: 1em;
+			font-weight: normal;
+		}
+	}
+ 
+  #imageTest2title, #imageTest3title, #imageTest2info, #imageTest3info {
+  	color: white;
+  }
+  .byline li {
+  	background-color:#DBE442;
+  }
+  
+  .linkBtn {
+  	background-color:#DBE442;
+  }
+
+}
+/*End test for background image on indexImageTest1.php require once header-test.php instead of header.php */
+
+
+
+.alert {
+	border-radius: 0;
+	font-size: .9em;
+	margin: 15px 0 15px 0;
+	a {
+		color: inherit;
+		font-weight: bold
+	}
+}
+
+.tip {
+	font-size: .9em;
+}

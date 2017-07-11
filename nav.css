@@ -1,0 +1,49 @@
+nav.navbar {
+  background-color: #eee;
+  padding: 15px 0;
+  border: 0;
+  border-radius: 0;
+}
+.nav a,
+nav.navbar button.btn {
+  font-family: 'Open Sans';
+  font-size: .9em;
+}
+nav.navbar button.btn {
+  margin: 10px 0 0 0;
+}
+ul.navbar-right {
+  margin-left: 0;
+}
+ul.navbar-right span.txt {
+  font-family: 'Open Sans';
+  font-size: 11.2px;
+}
+ul.navbar-right span.txt a {
+  color: #006484;
+  font-size: 11.2px;
+  font-weight: bold;
+}
+ul.navbar-right a.linkBtn {
+  margin-left: 5px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 0 15px;
+  width: auto;
+}
+.notification {
+  color: #444;
+  display: inline-block;
+  padding: 6px;
+}
+.notification .count {
+  font-size: .9em;
+  font-weight: bold;
+}
+.notification .glyphicon-flag {
+  padding-right: 0;
+}

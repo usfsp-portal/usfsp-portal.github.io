@@ -1,0 +1,30 @@
+body#chatManagement h3,
+body#userManagement h3,
+body#unitManagement h3 {
+  font-family: 'Open Sans';
+  margin-top: 20px;
+}
+body#chatManagement table,
+body#userManagement table,
+body#unitManagement table {
+  margin-top: 10px;
+}
+body#chatManagement table tr,
+body#userManagement table tr,
+body#unitManagement table tr {
+  font-family: 'Open Sans';
+  font-size: .9em;
+}
+body#chatManagement table tr th,
+body#userManagement table tr th,
+body#unitManagement table tr th {
+  border-bottom: none;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+body#chatManagement table tfoot,
+body#userManagement table tfoot,
+body#unitManagement table tfoot {
+  text-transform: uppercase;
+}

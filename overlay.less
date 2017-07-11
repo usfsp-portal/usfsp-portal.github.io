@@ -1,0 +1,89 @@
+@overlayWidth: 265px;
+.shadowedArea {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+  #overlay1 {
+    display: none
+  }
+@media screen and (max-width: 767px) {
+  #overlay1 {
+    display: block
+  }
+}
+
+#overlay1 {
+    padding: 0;
+    position: absolute;
+    left: -@overlayWidth;
+    width: 300px;
+    z-index: 100;
+   .overlay-main,
+   .overlay-tab {
+      float: left
+   }
+   .overlay-main {
+      background-color: #ddd;
+      .shadowedArea;
+      padding: 10px;
+      width: @overlayWidth;
+   }
+   .overlay-tab {
+      background-color: #888;
+      .shadowedArea;
+      color: #fff;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      cursor: pointer;
+      padding: 10px 5px;
+      text-align: center;
+      width: 35px;
+      span {
+        line-height: 25px;
+        padding-left: 4px;        
+      }
+   }
+   .overlay-tab:hover {
+    background-color: #999 !important;
+  }
+}
+
+#overlay2 {
+    padding: 0;
+    position: relative;
+    width:300px;
+    z-index: 99;
+   .overlay-main,
+   .overlay-tab {
+      float: left
+   }
+
+   .overlay-main {
+      background-color: #ddd;
+      .shadowedArea;
+      padding: 10px;
+      width: @overlayWidth;
+   }
+   .overlay-tab {
+      background-color: #000;
+      .shadowedArea;
+      color: #fff;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      cursor: pointer;
+      padding: 10px 5px;
+      text-align: center;
+      width: 35px;
+      margin-top:45px;
+      span {
+        line-height: 25px;
+        padding-left: 4px;        
+      }
+   }
+   .overlay-tab:hover {
+    background-color: #999 !important;
+  }
+
+
+ }  

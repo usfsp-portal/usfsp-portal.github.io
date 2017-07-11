@@ -1,0 +1,48 @@
+#chatManagerRecordTable td,
+th {
+  font-family: 'Open Sans';
+  /*background-color:#009374;*/
+  /*above color is usfsp teal green */
+}
+#chatManagerTable tr:nth-child(odd) {
+  background: #ffffff;
+}
+#chatManagerTable tr:nth-child(even) {
+  background: #eeeeee;
+}
+#chatManagerTableHeader {
+  cursor: pointer;
+  cursor: hand;
+}
+#chatManagerTable .handover {
+  cursor: pointer;
+  cursor: hand;
+}
+#chatManagerTableHeader th {
+  background-color: #444;
+  /* 006484 is a usf system brand color */
+  color: white;
+  text-align: center;
+}
+#chatManagerTableHeader th.table-filterable {
+  background-color: #009374;
+  color: green;
+  /* 006484 is a usf system brand color */
+}
+#chatManagerTableFilters th.table-sortable {
+  background-color: #fff;
+  /* 006484 is a usf system brand color */
+}
+#chatManagerTableFilters th.table-filterable {
+  /* 006484 is a usf system brand color */
+}
+#chatManagerTableHeader th.sorted-on-this {
+  background-color: #DBE442;
+  color: 009374;
+  /* 006484 is a usf system brand color */
+}
+#chatRecordsFooter td {
+  background-color: #444;
+  color: white;
+  /* 006484 is a usf system brand color */
+}
