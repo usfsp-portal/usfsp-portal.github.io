@@ -8088,6 +8088,7 @@ div#target-login-to-account.error-present {
 }
 /*End of temporary Placeholder content added 24 June by Sharon Casey needs to adjust CSS*/
 footer.site-footer {
+background-color:#000; 	
   padding: 20px 0;
 }
 .registration-form input {
