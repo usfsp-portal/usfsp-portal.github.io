@@ -8531,5 +8531,6 @@ ul.navbar-right a.getHelp {
   font-size: .9em;
 }
 figcaption {
-text-align:center;
+ display: block;	
+ text-align:center;
 }
