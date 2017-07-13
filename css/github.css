@@ -8088,7 +8088,8 @@ div#target-login-to-account.error-present {
 }
 /*End of temporary Placeholder content added 24 June by Sharon Casey needs to adjust CSS*/
 footer.site-footer {
-border-top: 5px solid #29AFCE;	
+margin-top:50px;	
+border-top: 3px solid #29AFCE;	
   padding: 20px 0;
 }
 .registration-form input {
